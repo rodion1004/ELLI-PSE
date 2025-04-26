@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+
+.animation {
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {text-shadow: 0 0 10px #00ffcc;}
+  to {text-shadow: 0 0 30px #00ffaa, 0 0 60px #00ffcc;}
+}
+
+.nav-buttons {
+  padding: 14px 40px;
+  background-color: transparent;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  width: 150px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons:hover {
+  background-color: #00ffcc;
+  color: #000;
+  transform: scale(1.05);
+}
