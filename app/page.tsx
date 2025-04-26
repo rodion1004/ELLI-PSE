@@ -34,7 +34,7 @@ export default function Home() {
             deleteSpeed: 50,
             delay: 100,
           }}
-          // className="text-2xl font-bold mb-[40px] animation"
+
           onInit={(typewriter) => {
             typewriter
               .typeString("Bienvenue dans l'univers d'Alex")
@@ -43,7 +43,6 @@ export default function Home() {
               .start();
           }}
         />
-        {/* <p data-aos-delay="300" data-aos="fade-up">Bienvenue dans l'univers caché d'Alex. Choisissez votre point d'entrée.</p> */}
       </div>
       <div className="flex flex-col mt-[70px] gap-4  ">
         <Link data-aos-delay="500" data-aos="fade-up" className="nav-buttons" href="/pisodes">Épisodes</Link>
