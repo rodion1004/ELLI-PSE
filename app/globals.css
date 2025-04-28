@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,8 +14,13 @@ body {
 }
 
 @keyframes glow {
-  from {text-shadow: 0 0 10px #00ffcc;}
-  to {text-shadow: 0 0 30px #00ffaa, 0 0 60px #00ffcc;}
+  from {
+    text-shadow: 0 0 10px #00ffcc;
+  }
+
+  to {
+    text-shadow: 0 0 30px #00ffaa, 0 0 60px #00ffcc;
+  }
 }
 
 .nav-buttons {
@@ -33,4 +39,48 @@ body {
   background-color: #00ffcc;
   color: #000;
   transform: scale(1.05);
+}
+
+.main-bg {
+  background-image: url(../public/main-1.png);
+  background-size: cover;
+  background-position: 100%;
+  height: 25vW;
+  min-height: 300px;
+  max-height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+span{
+  font-family: 'Open Sans', sans-serif;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: .8em;
+  line-height: 1.5em;
+}
+li{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+h6{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
 }
