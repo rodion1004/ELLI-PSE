@@ -1,6 +1,7 @@
 
 /* eslint-disable react/no-unescaped-entities */
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 export default function Pisodes() {
     return (
@@ -17,7 +18,7 @@ export default function Pisodes() {
                     </div>
                     <div className=" font-semibold flex text-[#111] ">
                         <button className="bg-[#0f0] cursor-pointer px-[16px] py-[4px] rounded">Voir</button>
-                        <button className="bg-[#0f0] cursor-pointer px-[16px] ml-[15px] rounded">Résoudre</button>
+                        <Link href="/enigma" className="bg-[#0f0] cursor-pointer px-[16px] ml-[15px] rounded">Résoudre</Link>
                     </div>
                 </div>
                 <div data-aos-delay="400" data-aos="fade-up" className="bg-[#111] rounded-lg mb-[15px] border items-center shadow-[0_0_10px_#0f0] flex justify-between p-[20px]">
@@ -25,7 +26,7 @@ export default function Pisodes() {
                         <h2 className="text-[20px] font-bold">Épisode 2 : Le Début des Souvenirs</h2>
                         <span className=" text-[#ccc] text-[14px]">Disponible</span>
                     </div>
-                    <div  className=" font-semibold flex text-[#111] ">
+                    <div className=" font-semibold flex text-[#111] ">
                         <button className="bg-[#0f0] cursor-pointer px-[16px] py-[4px] rounded">Voir</button>
                         <button className="bg-[#0f0] cursor-pointer px-[16px] ml-[15px] rounded">Résoudre</button>
                     </div>
